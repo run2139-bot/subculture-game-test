@@ -1,0 +1,114 @@
+{
+  "traits": {
+    "ACTION": "액션/손맛",
+    "STRATEGY": "전략/두뇌",
+    "STORY": "스토리 몰입",
+    "EXPLORE": "탐험/오픈월드",
+    "CASUAL": "가벼움/짧은 플레이",
+    "DARK": "어둡고 무거운 분위기",
+    "CHAR": "캐릭터 애착/수집"
+  },
+  "scoring": "사용자 trait 벡터(선택 weights 합산)와 games.json의 profile 벡터 간 코사인 유사도로 순위 산출",
+  "questions": [
+    {
+      "id": 1,
+      "text": "게임 중 가장 짜릿한 순간은?",
+      "choices": [
+        { "id": "1A", "text": "콤보와 회피가 완벽하게 맞아떨어질 때", "weights": { "ACTION": 3 } },
+        { "id": "1B", "text": "계산한 배치로 적을 깔끔하게 막아낼 때", "weights": { "STRATEGY": 3 } },
+        { "id": "1C", "text": "감동적인 스토리 컷신을 볼 때", "weights": { "STORY": 3 } },
+        { "id": "1D", "text": "새로운 지역을 발견했을 때", "weights": { "EXPLORE": 3 } }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "하루에 게임에 쓸 수 있는 시간은?",
+      "choices": [
+        { "id": "2A", "text": "10분 내외, 출석과 숙제만", "weights": { "CASUAL": 3 } },
+        { "id": "2B", "text": "1시간 정도", "weights": { "CASUAL": 1, "STORY": 1 } },
+        { "id": "2C", "text": "2~3시간", "weights": { "ACTION": 1, "STRATEGY": 1, "EXPLORE": 1 } },
+        { "id": "2D", "text": "시간은 얼마든지 쓴다", "weights": { "ACTION": 1, "STRATEGY": 1, "EXPLORE": 1, "CASUAL": -2 } }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "끌리는 세계관 분위기는?",
+      "choices": [
+        { "id": "3A", "text": "밝고 활기찬 학원 일상", "weights": { "CHAR": 2, "CASUAL": 2, "DARK": -1 } },
+        { "id": "3B", "text": "광활한 판타지 대륙", "weights": { "EXPLORE": 2, "STORY": 1 } },
+        { "id": "3C", "text": "황폐한 디스토피아", "weights": { "DARK": 3 } },
+        { "id": "3D", "text": "별과 열차가 오가는 SF 우주", "weights": { "STORY": 1, "EXPLORE": 1, "STRATEGY": 1 } }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "캐릭터에게 가장 기대하는 것은?",
+      "choices": [
+        { "id": "4A", "text": "나와 교감하는 귀엽고 친근한 모습", "weights": { "CHAR": 3 } },
+        { "id": "4B", "text": "개성 강하고 멋진 비주얼", "weights": { "ACTION": 1, "DARK": 1, "CHAR": 1 } },
+        { "id": "4C", "text": "서사가 깊은 입체적인 인물", "weights": { "STORY": 2, "CHAR": 1 } },
+        { "id": "4D", "text": "역할이 확실한 성능", "weights": { "STRATEGY": 2 } }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "스토리는 어떻게 즐기나?",
+      "choices": [
+        { "id": "5A", "text": "대부분 스킵하고 플레이에 집중", "weights": { "ACTION": 2, "CASUAL": 1 } },
+        { "id": "5B", "text": "가볍게 훑어본다", "weights": { "CASUAL": 1, "STORY": 1 } },
+        { "id": "5C", "text": "대사 하나하나 정독한다", "weights": { "STORY": 3 } },
+        { "id": "5D", "text": "설정과 떡밥을 파고든다", "weights": { "STORY": 2, "DARK": 1, "STRATEGY": 1 } }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "선호하는 전투 방식은?",
+      "choices": [
+        { "id": "6A", "text": "직접 조작하는 화려한 액션", "weights": { "ACTION": 3 } },
+        { "id": "6B", "text": "전략적인 턴제 전투", "weights": { "STRATEGY": 2, "STORY": 1 } },
+        { "id": "6C", "text": "배치/자동 전투 중심의 지휘", "weights": { "STRATEGY": 3 } },
+        { "id": "6D", "text": "조준하고 사격하는 슈팅", "weights": { "ACTION": 2, "DARK": 1 } }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "머리를 쓰는 게임 요소는 어떤가?",
+      "choices": [
+        { "id": "7A", "text": "머리싸움이 제일 재밌다", "weights": { "STRATEGY": 3 } },
+        { "id": "7B", "text": "적당한 정도면 좋다", "weights": { "STRATEGY": 1, "CASUAL": 1 } },
+        { "id": "7C", "text": "생각 없이 즐기고 싶다", "weights": { "CASUAL": 2, "ACTION": 1 } },
+        { "id": "7D", "text": "퍼즐과 숨겨진 요소 찾기가 좋다", "weights": { "EXPLORE": 3 } }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "육성과 과금에 대한 태도는?",
+      "choices": [
+        { "id": "8A", "text": "무과금/소과금으로 편하게", "weights": { "CASUAL": 2 } },
+        { "id": "8B", "text": "반복 파밍과 최적화가 즐겁다", "weights": { "STRATEGY": 2 } },
+        { "id": "8C", "text": "좋아하는 캐릭터는 다 모은다", "weights": { "CHAR": 2 } },
+        { "id": "8D", "text": "최애 하나를 스펙 끝까지", "weights": { "ACTION": 1, "CHAR": 1 } }
+      ]
+    },
+    {
+      "id": 9,
+      "text": "다른 사람과 어떻게 즐기고 싶나?",
+      "choices": [
+        { "id": "9A", "text": "혼자서 조용히", "weights": { "EXPLORE": 1, "STORY": 1 } },
+        { "id": "9B", "text": "친구/길드와 가볍게", "weights": { "CASUAL": 1, "CHAR": 1 } },
+        { "id": "9C", "text": "랭킹 경쟁이 불타오른다", "weights": { "ACTION": 2, "STRATEGY": 1 } },
+        { "id": "9D", "text": "커뮤니티에서 이야기하고 2차 창작을 본다", "weights": { "CHAR": 1, "STORY": 1 } }
+      ]
+    },
+    {
+      "id": 10,
+      "text": "주로 어떤 환경에서 플레이하나?",
+      "choices": [
+        { "id": "10A", "text": "모바일로 틈틈이", "weights": { "CASUAL": 2 } },
+        { "id": "10B", "text": "PC 대화면으로 몰입해서", "weights": { "EXPLORE": 1, "ACTION": 1 } },
+        { "id": "10C", "text": "PC와 모바일 모두", "weights": { "STORY": 1 } },
+        { "id": "10D", "text": "비주얼과 OST를 감상하며", "weights": { "CHAR": 1, "STORY": 1, "DARK": 1 } }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+package com.subculture.backend.quiz.repository;
+
+import com.subculture.backend.quiz.entity.Question;
+import org.springframework.data.jpa.repository.EntityGraph;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import java.util.List;
+
+public interface QuestionRepository extends JpaRepository<Question, Long> {
+
+    @EntityGraph(attributePaths = "choices")
+    List<Question> findAllByOrderBySeqAsc();
+}
