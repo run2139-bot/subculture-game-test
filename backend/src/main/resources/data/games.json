@@ -6,7 +6,7 @@
       "title": "블루 아카이브",
       "developer": "NEXON Games",
       "description": "학원도시 키보토스에서 '선생님'이 되어 학생들과 함께 사건을 해결하는 학원 육성 RPG.",
-      "imageUrl": "/images/games/blue-archive.jpg",
+      "imageUrl": "/images/games/blue-archive.svg",
       "recommendPoints": ["학생들과 교감하는 일상 스토리와 모모톡", "짧은 일일 플레이로 부담이 적음", "배치와 스킬 타이밍을 고민하는 전략 요소"],
       "profile": { "ACTION": 3, "STRATEGY": 6, "STORY": 6, "EXPLORE": 1, "CASUAL": 7, "DARK": 2, "CHAR": 10 }
     },
@@ -15,7 +15,7 @@
       "title": "원신",
       "developer": "HoYoverse",
       "description": "텍스트로 구성된 대륙 '테이바트'를 여행하며 잃어버린 가족을 찾는 오픈월드 액션 RPG.",
-      "imageUrl": "/images/games/genshin-impact.jpg",
+      "imageUrl": "/images/games/genshin-impact.svg",
       "recommendPoints": ["자유로운 탐험과 퍼즐, 숨겨진 보물", "원소 반응을 활용하는 전투", "PC·모바일·콘솔 크로스 플랫폼"],
       "profile": { "ACTION": 6, "STRATEGY": 3, "STORY": 6, "EXPLORE": 10, "CASUAL": 6, "DARK": 2, "CHAR": 7 }
     },
@@ -24,7 +24,7 @@
       "title": "명일방주",
       "developer": "Hypergryph / Yostar",
       "description": "재난 '천재'와 감염병이 퍼진 세계에서 제약회사 로도스 아일랜드를 이끄는 타워 디펜스 전략 게임.",
-      "imageUrl": "/images/games/arknights.jpg",
+      "imageUrl": "/images/games/arknights.svg",
       "recommendPoints": ["지형과 오퍼레이터 배치를 계산하는 깊이 있는 전략", "어둡고 묵직한 사회파 세계관", "소과금으로도 충분히 즐길 수 있는 구조"],
       "profile": { "ACTION": 1, "STRATEGY": 10, "STORY": 7, "EXPLORE": 1, "CASUAL": 3, "DARK": 9, "CHAR": 6 }
     },
@@ -33,7 +33,7 @@
       "title": "붕괴: 스타레일",
       "developer": "HoYoverse",
       "description": "열차 '성궤'를 타고 여러 별을 여행하며 운명에 맞서는 SF 턴제 RPG.",
-      "imageUrl": "/images/games/honkai-star-rail.jpg",
+      "imageUrl": "/images/games/honkai-star-rail.svg",
       "recommendPoints": ["영화 같은 연출의 방대한 스토리", "약점 격파와 속도 조절이 핵심인 턴제 전투", "개성 있는 동료와 열차 일상"],
       "profile": { "ACTION": 3, "STRATEGY": 7, "STORY": 9, "EXPLORE": 6, "CASUAL": 5, "DARK": 4, "CHAR": 7 }
     },
@@ -42,7 +42,7 @@
       "title": "승리의 여신: 니케",
       "developer": "SHIFT UP",
       "description": "지상을 점령한 기계 '랩처'에 맞서 인류의 병기 '니케'를 지휘하는 종스크롤 슈팅 RPG.",
-      "imageUrl": "/images/games/nikke.jpg",
+      "imageUrl": "/images/games/nikke.svg",
       "recommendPoints": ["조준과 엄폐를 활용하는 손맛 있는 슈팅", "포스트 아포칼립스 분위기와 완성도 높은 일러스트", "한 손으로도 가능한 모바일 조작"],
       "profile": { "ACTION": 8, "STRATEGY": 4, "STORY": 7, "EXPLORE": 1, "CASUAL": 6, "DARK": 7, "CHAR": 8 }
     },
@@ -51,7 +51,7 @@
       "title": "젠레스 존 제로",
       "developer": "HoYoverse",
       "description": "재앙 '공동'이 도시를 삼킨 뒤의 뉴에리두를 배경으로 하는 스타일리시 도시 액션 RPG.",
-      "imageUrl": "/images/games/zenless-zone-zero.jpg",
+      "imageUrl": "/images/games/zenless-zone-zero.svg",
       "recommendPoints": ["회피와 퍼펙트 저지가 살아있는 빠른 액션", "세련된 도시풍 연출과 음악", "비디오 가게 운영 등 가벼운 일상 콘텐츠"],
       "profile": { "ACTION": 10, "STRATEGY": 3, "STORY": 6, "EXPLORE": 5, "CASUAL": 4, "DARK": 5, "CHAR": 7 }
     },
@@ -60,7 +60,7 @@
       "title": "명조: 워더링 웨이브",
       "developer": "Kuro Games",
       "description": "재앙 '비탄'이 휩쓸고 간 세계에서 잃어버린 기억을 찾아 나서는 오픈월드 액션 RPG.",
-      "imageUrl": "/images/games/wuthering-waves.jpg",
+      "imageUrl": "/images/games/wuthering-waves.svg",
       "recommendPoints": ["회피·반격·콤보 중심의 빠른 액션 전투", "넓은 오픈월드 탐험과 빠른 이동 수단", "쓸쓸하고 진중한 세계관과 분위기"],
       "profile": { "ACTION": 9, "STRATEGY": 3, "STORY": 7, "EXPLORE": 8, "CASUAL": 4, "DARK": 6, "CHAR": 7 }
     },
@@ -69,7 +69,7 @@
       "title": "이환",
       "developer": "Hotta Studio",
       "description": "기이한 '이상 현상'이 일상이 된 현대 대도시를 배경으로 하는 어반 판타지 오픈월드 RPG.",
-      "imageUrl": "/images/games/neverness-to-everness.jpg",
+      "imageUrl": "/images/games/neverness-to-everness.svg",
       "recommendPoints": ["도시를 자유롭게 돌아다니는 오픈월드 탐험", "차량 운전과 도시 생활 콘텐츠", "현대적이고 감각적인 비주얼"],
       "profile": { "ACTION": 6, "STRATEGY": 3, "STORY": 6, "EXPLORE": 9, "CASUAL": 5, "DARK": 4, "CHAR": 7 }
     },
@@ -78,7 +78,7 @@
       "title": "명일방주: 엔드필드",
       "developer": "Hypergryph / GRYPHLINE",
       "description": "명일방주 세계관의 신규 행성 '탈로스-II'를 개척하는 3D 실시간 전략 RPG.",
-      "imageUrl": "/images/games/arknights-endfield.jpg",
+      "imageUrl": "/images/games/arknights-endfield.svg",
       "recommendPoints": ["거점을 설계하고 자동화하는 공장 시스템", "3D로 구현된 실시간 전투와 팀 연계", "명일방주 특유의 묵직한 SF 세계관"],
       "profile": { "ACTION": 6, "STRATEGY": 8, "STORY": 7, "EXPLORE": 6, "CASUAL": 2, "DARK": 7, "CHAR": 6 }
     },
@@ -87,7 +87,7 @@
       "title": "카오스 제로 나이트메어",
       "developer": "Smilegate",
       "description": "'카오스' 현상에 맞서 카드로 전투하는 덱 빌딩 턴제 RPG.",
-      "imageUrl": "/images/games/chaos-zero-nightmare.jpg",
+      "imageUrl": "/images/games/chaos-zero-nightmare.svg",
       "recommendPoints": ["카드를 조합해 덱을 직접 구성하는 전략성", "매번 달라지는 전투 전개로 높은 반복 플레이 재미", "어둡고 몽환적인 분위기"],
       "profile": { "ACTION": 2, "STRATEGY": 9, "STORY": 6, "EXPLORE": 2, "CASUAL": 4, "DARK": 8, "CHAR": 6 }
     }

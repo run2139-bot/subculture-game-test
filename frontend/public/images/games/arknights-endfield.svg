@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="명일방주: 엔드필드">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fbbf24"/>
+      <stop offset="1" stop-color="#44403c"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)"/>
+  <circle cx="673" cy="6" r="84" fill="#fef3c7" opacity="0.16"/>
+  <rect x="719.5" y="321.5" width="123" height="123" fill="#fef3c7" opacity="0.24" transform="rotate(54 781 383)"/>
+  <rect x="263.5" y="163.5" width="121" height="121" fill="#fef3c7" opacity="0.18" transform="rotate(67 324 224)"/>
+  <rect x="9" y="274" width="106" height="106" fill="#fef3c7" opacity="0.15" transform="rotate(13 62 327)"/>
+  <rect x="137" y="11" width="46" height="46" fill="#fef3c7" opacity="0.09" transform="rotate(10 160 34)"/>
+  <circle cx="583" cy="238" r="62" fill="#fef3c7" opacity="0.21"/>
+  <circle cx="527" cy="362" r="83" fill="#fef3c7" opacity="0.14"/>
+  <rect x="0" y="300" width="800" height="150" fill="#000" opacity="0.35"/>
+  <text x="48" y="372" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="44" font-weight="700" fill="#fff">명일방주: 엔드필드</text>
+  <text x="48" y="410" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="22" fill="#fef3c7">Hypergryph / GRYPHLINE</text>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="이환">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#c084fc"/>
+      <stop offset="1" stop-color="#be185d"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)"/>
+  <circle cx="620" cy="170" r="162" fill="#fce7f3" opacity="0.11"/>
+  <circle cx="520" cy="449" r="108" fill="#fce7f3" opacity="0.13"/>
+  <circle cx="22" cy="30" r="111" fill="#fce7f3" opacity="0.12"/>
+  <circle cx="260" cy="276" r="109" fill="#fce7f3" opacity="0.13"/>
+  <rect x="593.5" y="121.5" width="179" height="179" fill="#fce7f3" opacity="0.12" transform="rotate(30 683 211)"/>
+  <circle cx="195" cy="295" r="128" fill="#fce7f3" opacity="0.21"/>
+  <circle cx="798" cy="62" r="76" fill="#fce7f3" opacity="0.22"/>
+  <rect x="0" y="300" width="800" height="150" fill="#000" opacity="0.35"/>
+  <text x="48" y="372" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="44" font-weight="700" fill="#fff">이환</text>
+  <text x="48" y="410" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="22" fill="#fce7f3">Hotta Studio</text>
+</svg>

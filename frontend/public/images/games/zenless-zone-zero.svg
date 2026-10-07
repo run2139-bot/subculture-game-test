@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="젠레스 존 제로">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#facc15"/>
+      <stop offset="1" stop-color="#18181b"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)"/>
+  <rect x="-14.5" y="287.5" width="171" height="171" fill="#fef08a" opacity="0.18" transform="rotate(57 71 373)"/>
+  <circle cx="50" cy="50" r="161" fill="#fef08a" opacity="0.13"/>
+  <rect x="698" y="111" width="108" height="108" fill="#fef08a" opacity="0.25" transform="rotate(68 752 165)"/>
+  <circle cx="725" cy="1" r="40" fill="#fef08a" opacity="0.14"/>
+  <circle cx="651" cy="166" r="97" fill="#fef08a" opacity="0.08"/>
+  <rect x="256" y="191" width="110" height="110" fill="#fef08a" opacity="0.23" transform="rotate(90 311 246)"/>
+  <circle cx="377" cy="343" r="154" fill="#fef08a" opacity="0.09"/>
+  <rect x="0" y="300" width="800" height="150" fill="#000" opacity="0.35"/>
+  <text x="48" y="372" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="44" font-weight="700" fill="#fff">젠레스 존 제로</text>
+  <text x="48" y="410" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="22" fill="#fef08a">HoYoverse</text>
+</svg>
