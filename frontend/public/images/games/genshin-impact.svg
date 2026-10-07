@@ -13,7 +13,7 @@
   <circle cx="206" cy="403" r="131" fill="#fef3c7" opacity="0.25"/>
   <rect x="6.5" y="323.5" width="97" height="97" fill="#fef3c7" opacity="0.22" transform="rotate(65 55 372)"/>
   <rect x="495.5" y="0.5" width="99" height="99" fill="#fef3c7" opacity="0.11" transform="rotate(61 545 50)"/>
-  <rect x="0" y="300" width="800" height="150" fill="#000" opacity="0.35"/>
-  <text x="48" y="372" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="44" font-weight="700" fill="#fff">원신</text>
-  <text x="48" y="410" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="22" fill="#fef3c7">HoYoverse</text>
+  <rect x="0" y="165" width="800" height="125" fill="#000" opacity="0.35"/>
+  <text x="400" y="225" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="56" font-weight="700" fill="#fff">원신</text>
+  <text x="400" y="263" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="22" fill="#fef3c7">HoYoverse</text>
 </svg>

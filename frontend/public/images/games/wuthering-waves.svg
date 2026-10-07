@@ -13,7 +13,7 @@
   <rect x="654" y="-46" width="130" height="130" fill="#cffafe" opacity="0.22" transform="rotate(89 719 19)"/>
   <circle cx="430" cy="66" r="81" fill="#cffafe" opacity="0.23"/>
   <circle cx="121" cy="281" r="77" fill="#cffafe" opacity="0.13"/>
-  <rect x="0" y="300" width="800" height="150" fill="#000" opacity="0.35"/>
-  <text x="48" y="372" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="44" font-weight="700" fill="#fff">명조: 워더링 웨이브</text>
-  <text x="48" y="410" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="22" fill="#cffafe">Kuro Games</text>
+  <rect x="0" y="165" width="800" height="125" fill="#000" opacity="0.35"/>
+  <text x="400" y="225" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="38" font-weight="700" fill="#fff">명조: 워더링 웨이브</text>
+  <text x="400" y="263" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="22" fill="#cffafe">Kuro Games</text>
 </svg>

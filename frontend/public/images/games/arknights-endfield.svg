@@ -13,7 +13,7 @@
   <rect x="137" y="11" width="46" height="46" fill="#fef3c7" opacity="0.09" transform="rotate(10 160 34)"/>
   <circle cx="583" cy="238" r="62" fill="#fef3c7" opacity="0.21"/>
   <circle cx="527" cy="362" r="83" fill="#fef3c7" opacity="0.14"/>
-  <rect x="0" y="300" width="800" height="150" fill="#000" opacity="0.35"/>
-  <text x="48" y="372" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="44" font-weight="700" fill="#fff">명일방주: 엔드필드</text>
-  <text x="48" y="410" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="22" fill="#fef3c7">Hypergryph / GRYPHLINE</text>
+  <rect x="0" y="165" width="800" height="125" fill="#000" opacity="0.35"/>
+  <text x="400" y="225" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="42" font-weight="700" fill="#fff">명일방주: 엔드필드</text>
+  <text x="400" y="263" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="22" fill="#fef3c7">Hypergryph / GRYPHLINE</text>
 </svg>
