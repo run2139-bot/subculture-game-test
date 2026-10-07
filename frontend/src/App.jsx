@@ -1,11 +1,13 @@
 import { useState } from 'react'
 import { AlertCircle, Loader2 } from 'lucide-react'
 import { fetchQuestions, submitAnswers } from './api'
+import Board from './components/Board'
 import Intro from './components/Intro'
 import Quiz from './components/Quiz'
 import Result from './components/Result'
 
 export default function App() {
+  const [tab, setTab] = useState('test') // test | board
   const [phase, setPhase] = useState('intro') // intro | quiz | loading | result
   const [questions, setQuestions] = useState([])
   const [result, setResult] = useState(null)
@@ -44,6 +46,26 @@ export default function App() {
   return (
     <main className="min-h-screen bg-gradient-to-b from-slate-950 via-indigo-950 to-slate-900 px-4 py-10 text-slate-100">
       <div className="mx-auto w-full max-w-2xl">
+        <nav className="mb-8 flex justify-center gap-2 text-sm">
+          {[
+            ['test', '추천 테스트'],
+            ['board', '게시판'],
+          ].map(([key, label]) => (
+            <button
+              key={key}
+              onClick={() => setTab(key)}
+              className={`rounded-full px-5 py-2 transition ${
+                tab === key ? 'bg-indigo-500 font-semibold' : 'bg-white/5 hover:bg-white/10'
+              }`}
+            >
+              {label}
+            </button>
+          ))}
+        </nav>
+        {tab === 'board' ? (
+          <Board />
+        ) : (
+          <>
         {error && (
           <div className="mb-4 flex items-center gap-2 rounded-lg border border-red-400/40 bg-red-500/10 p-3 text-sm text-red-200">
             <AlertCircle size={18} className="shrink-0" />
@@ -59,6 +81,8 @@ export default function App() {
         )}
         {phase === 'quiz' && <Quiz questions={questions} onFinish={finish} />}
         {phase === 'result' && <Result result={result} onRestart={restart} />}
+          </>
+        )}
       </div>
     </main>
   )
