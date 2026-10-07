@@ -31,3 +31,8 @@ dependencies {
 tasks.named('test') {
 	useJUnitPlatform()
 }
+
+// build/libs 에 실행 가능한 jar 한 개만 남기기 (Dockerfile 의 *.jar 복사용)
+tasks.named('jar') {
+	enabled = false
+}
